@@ -2,16 +2,18 @@
   "name": "curriculum",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "dev": "node_modules\\.bin\\parcel index.html",
+    "build": "node_modules\\.bin\\parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "node-sass": "^4.9.0"
-  },
   "devDependencies": {
     "less": "^3.0.4"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.8.1"
   }
 }
